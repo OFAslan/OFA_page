@@ -9,8 +9,7 @@ col1, col2, col3 = st.columns(3)
 col2.image(Image.open('photo.png'))
 
 with col2:
-  st.header('''Oğuzhan Furkan
-                  Aslan''')
+  st.header('Oğuzhan Furkan Aslan')
 
 st.info('Data & Analytics Specialist, Data Engineer')
 
