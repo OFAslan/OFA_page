@@ -8,7 +8,7 @@ load_css()
 col1, col2, col3 = st.columns(3)
 col2.image(Image.open('photo.png'))
 
-col2.write("OGUZHAN FURKAN ASLAN", style={"font-size": "40px"})
+col2.header("OGUZHAN FURKAN ASLAN", style={"font-size": "40px"})
 
 st.info('Data & Analytics Specialist, Data Engineer')
 
