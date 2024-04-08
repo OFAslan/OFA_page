@@ -11,7 +11,7 @@ col2.image(Image.open('photo.png'))
 # Custom HTML/CSS to center-align text in Streamlit header
 header_html = """
     <div style="display: flex; justify-content: center; align-items: center; height: 100%;">
-        <h1 style="margin: 0;">OĞUZHAN FURKAN ASLAN</h1>
+        <h1 style="margin: 2;">OĞUZHAN FURKAN ASLAN</h1>
     </div>
 """
 
