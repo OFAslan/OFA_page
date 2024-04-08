@@ -8,7 +8,15 @@ load_css()
 col1, col2, col3 = st.columns(3)
 col2.image(Image.open('photo.png'))
 
-col2.header("OĞUZHAN FURKAN ASLAN")
+# Custom HTML/CSS to center-align text in Streamlit header
+header_html = """
+    <div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+        <h1 style="margin: 0;">OĞUZHAN FURKAN ASLAN</h1>
+    </div>
+"""
+
+# Display the custom header
+st.markdown(header_html, unsafe_allow_html=True)
 
 st.info('Data & Analytics Specialist, Data Engineer')
 
