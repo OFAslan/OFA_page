@@ -7,6 +7,7 @@ load_css()
 
 col1, col2, col3 = st.columns(3)
 col2.image(Image.open('photo.png'))
+col2.image(Image.open('photo2.png'))
 
 # Custom HTML/CSS to center-align text in Streamlit header
 header_html = """
