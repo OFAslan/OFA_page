@@ -8,7 +8,7 @@ load_css()
 col1, col2, col3 = st.columns(3)
 col2.image(Image.open('photo.png'))
 
-col2.subheader("OGUZHAN FURKAN ASLAN")
+col2.subheader("OĞUZHAN FURKAN            ASLAN")
 
 st.info('Data & Analytics Specialist, Data Engineer')
 
